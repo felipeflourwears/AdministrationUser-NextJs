@@ -1,0 +1,6 @@
+.user-data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Otros estilos personalizados que desees aplicar al elemento li */
+  }

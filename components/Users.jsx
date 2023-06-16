@@ -10,16 +10,29 @@ function Users({ users }) {
     <ul className="list-group">
       {users.map((user) => (
         <li key={user.id}
-          className="list-group-item d-flex justify-content-between"
+          className="list-group-item user-data
+          list-group-item-action text-center"
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
+            /* Otros estilos personalizados que desees aplicar */
+          }}
           onClick={() => {
            /*  console.log(user.id); */
            router.push(`/users/${user.id}`)
           }}
         >
-          <div>
+          <div> 
             <h5>{user.id} {user.first_name} {user.last_name}</h5>
             <p>{user.email}</p>
-            <img src={user.avatar} alt={user.email} />
+            <img 
+              src={user.avatar} 
+              alt={user.email}
+              style={{
+                borderRadius: "50%",
+              }} 
+            />
           </div>
         </li>
       ))}
