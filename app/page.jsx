@@ -10,13 +10,9 @@ async function fetchUsers() {
 
 async function IndexPage() {
   const users = await fetchUsers();
-  console.log(users)
+ /*  console.log(users) */
   return(
-    <div>
-      <h1>Index Page</h1>
-      {/* {JSON.stringify(users)} */}
       <Users users={users}/>
-    </div>
   );
 }
 

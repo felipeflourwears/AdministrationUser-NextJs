@@ -7,9 +7,10 @@ function Users({ users }) {
   const router = useRouter()
 
   return (
-    <ul>
+    <ul className="list-group">
       {users.map((user) => (
         <li key={user.id}
+          className="list-group-item d-flex justify-content-between"
           onClick={() => {
            /*  console.log(user.id); */
            router.push(`/users/${user.id}`)
