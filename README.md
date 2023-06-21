@@ -1,3 +1,26 @@
+## App
+
+App [Link](https://test-administration-next-js-felipeflourwears.vercel.app/users/2).
+
+<p align="center">
+  <img src="../img/user.png" alt="Captura de pantalla de la página de usuario" width="400" />
+  <img src="../img/home.png" alt="Captura de pantalla de la página de inicio" width="400" /> 
+</p>
+
+
+# NextJs
+
+[Next.js](https://nextjs.org/) is a React framework for building server-side rendered and statically generated applications.
+
+## Installation
+
+Make sure you have Node.js installed on your machine. Clone this repository and navigate to the project directory. Then, run the following command to install the dependencies:
+
+```bash
+npm install
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
