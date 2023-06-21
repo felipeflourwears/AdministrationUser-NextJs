@@ -3,8 +3,8 @@
 App [Link](https://test-administration-next-js-felipeflourwears.vercel.app/users/2).
 
 <p align="center">
-  <img src="../img/user.png" alt="Captura de pantalla de la página de usuario" width="400" />
-  <img src="../img/home.png" alt="Captura de pantalla de la página de inicio" width="400" /> 
+  <img src="img/user.png" alt="Captura de pantalla de la página de usuario" width="400" />
+  <img src="img/home.png" alt="Captura de pantalla de la página de inicio" width="400" /> 
 </p>
 
 
